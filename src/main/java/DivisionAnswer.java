@@ -6,7 +6,7 @@ public class DivisionAnswer {
         this.val2 = val2;
     }
     public int getMultiplicationAnswer(String operand1){
-        int val1 = val3/val2;
+        int val1 = val3 / val2;
         String originalOperand = Integer.toString(val1);
         if(originalOperand.length() != operand1.length()){
             return -1;

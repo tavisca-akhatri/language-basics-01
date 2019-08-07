@@ -7,7 +7,7 @@ public class MultiplicationAnswer {
     }
 
     public int getMultiplicationAnswer(String operand3){
-        int val3 = val1*val2;
+        int val3 = val1 * val2;
         String originalOperand = Integer.toString(val3);
         if(originalOperand.length() != operand3.length()){
             return -1;
